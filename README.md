@@ -1,7 +1,8 @@
 # HKUST-Robotics-Team-Software-Tutorial-2017
 
 PIC: Emmett Yim<br>
-Contact: yhyim@ust.hk<br>
+General Enquiry: robotics@ust.hk<br>
+Software Tutorial Enquiry: yhyim@ust.hk ```(please also cc robotics@ust.hk)```<br>
 ---
 ## Schedule
 | | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
