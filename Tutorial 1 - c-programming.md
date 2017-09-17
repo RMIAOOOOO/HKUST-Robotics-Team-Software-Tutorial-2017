@@ -1,4 +1,4 @@
-# C Programming
+# Tutorial 1 - C Programming
 
 Author: Christopher Wong<br>
 Contact: pkcwongab@ust.hk<br>
