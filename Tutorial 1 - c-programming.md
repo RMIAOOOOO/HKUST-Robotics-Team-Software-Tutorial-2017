@@ -353,3 +353,105 @@ Functions may be called by other functions.
   }
 
 ```
+---
+
+## Extra - Data Types
+
+### Enumerations
+Enum is a data type whose collection of values corresponds to explicitly named constants. Unless specified, the value of the first element is 0, while any other element has a value one greater than its previous.
+```C
+  enum color
+  {
+    RED,  // RED = 0
+    GREEN,  //GREEN = 1
+    BLUE  //BLUE = 2
+  };
+```
+Enums are basically constants, but they make code more readable.
+```C
+  int main()
+  {
+    enum color myColor = RED;
+    switch (myColor)
+    {
+      case RED:
+      case GREEN:
+      case BLUE:
+    }
+  }
+```
+
+### Pointers
+Every variable is a memory location, and every memory location has its address defined.
+```C
+  int main()
+  {
+    int haha; // haha is a memory location
+    haha = 123; // haha stores an integer
+  }
+```
+In C, we may get the address of a memory location with the ampersand(&) operator.
+```C
+  int main()
+  {
+    int haha;
+    printf("address of haha: %x\n", &x);  // a possible output may be bff5a3f6
+  }
+```
+A pointer is a variable whose value is the address of another variable. Note that a pointer itself does not store any user data. It only stores an address to another variable. It does not hold any information to the actual data stored. The universal data type of a pointer is therefore ```void*```.
+```C
+  int main()
+  {
+    void *haha;  // declaration of a pointer
+    haha = NULL;  // a good habit to initialize a pointer to NULL
+  }
+```
+To retrieve the stored data to an address, the reverse operator is the asterisk(*). The operation is called dereferencing. Before dereferencing, it is neccessary to cast the pointer to the appropriate data type.
+```C
+  int main()
+  {
+    void* pointer = NULL;
+    int haha = 123;
+    pointer = &haha;  // pointer now stores address to haha
+    printf("%d\n", *((int*)(pointer))); // cast the pointer to int* before dereferencing.
+  }
+```
+The above code may be simplified.
+```c
+  int main()
+  {
+    int* pointer = NULL;
+    int haha = 123;
+    pointer = &haha;
+    printf("%d\n", *pointer);
+  }
+```
+
+### Arrays
+An array stores a collection of data of the same data type.
+```C
+  int main()
+  {
+    int myArray[10];  // an int array of size 10
+  }
+```
+For an array ```A``` of size ```n```, one may access the memory location by ```A[0]```, ```A[1]``` up to ```A[n-1]```. Note that ```A``` is the pointer to the starting address of the array, which is also the address to the first element of the array, ie ```A[0]```.
+```C
+  int main()
+  {
+    int A[10];
+    printf("%x %x\n", A, &A[0]);  // equivalent expressions
+    printf("%x %x\n", &A[3], A + sizeof(int) * 3);  // equivalent expressions
+  }
+```
+> It is also possibe to declare arrays of dynamic sizes with the help of pointers and a memory allocator.
+```C
+  int main()
+  {
+    int n = 10;
+    int* myArray = malloc(sizeof(int) * n);
+    // some code here
+    free(myArray);  // it is necessary to free up memory after program execution
+  }
+```
+The array ```myArray``` may be accessed same as a static array.
