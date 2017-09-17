@@ -1,4 +1,4 @@
-# Tutorial 1 - C Programming
+# C Programming
 
 Author: Christopher Wong<br>
 Contact: pkcwongab@ust.hk<br>
@@ -264,4 +264,92 @@ Similar to while loops, but with its own counter.
 
 ### Break-Continue
 
+Break statements jumps out of a loop. The loop may be ```do-while``` or ```for```.
+
+```C
+
+  int main()
+  {
+    while (1)
+    {
+      // this part runs
+      break;
+      // this part is skipped
+    }
+    // break jumps here
+  }
+
+```
+
+Continue statements skips through all succeeding statements within the loop.
+
+```C
+
+  int main()
+  {
+    while (1)
+    {
+      // continue jumps back here
+      continue;
+      // this part is skipped
+    }
+    // code here only executes when loop condition is false
+  }
+
+```
+
 ## Functions
+
+Functions in C follow the standard system call API. Functions usually accept parameters, and return a result.
+
+```
+<type> <function name>(<parameters>);
+```
+
+An example function.
+
+```C
+
+  int addition(int a, int b)
+  {
+    return a + b;
+  }
+
+```
+
+Functions may be called by other functions.
+
+```C
+
+  int addition(int a, int b)
+  {
+    return a + b;
+  }
+
+  int main()
+  {
+    printf("%d", addition(2, 3)); // outputs 5
+  }
+
+```
+
+> A function may also be passed as a parameter. It shall be discussed in advanced tutorial
+
+```C
+
+  int addition(int a, int b)
+  {
+    return a + b;
+  }
+
+  int calculator(int a, int b, int (*operation)(int, int))
+  {
+    return operation(a, b);
+  }
+
+  int main()
+  {
+    printf("%d", calculator(2, 3, &addition));  // more advaced function calls
+  }
+
+```
