@@ -22,6 +22,16 @@ Tutorial Enquiry: yhyim@ust.hk ```(plz also cc robotics@ust.hk)```<br>
 ---
 
 ## Tutorial 0 - C Programming
+Syllabus(basic):
+- variables
+- standard input / output
+- operators & comparators
+- branching & looping
+Syllabus(extra):
+- enumeration
+- pointer
+- array
+
 Things to prepare:
 - any working C language IDE (e.g. ```esclipes```,```orwell dev-c++```,etc)
 - your notebook computer & charger
