@@ -15,7 +15,7 @@ Contact: yhyim@ust.hk<br>
 | Venue | | 2612A | 2612A | 2612A | 2612A | 2612A | 2612A |
 | | | | | | |
 | Tutorial 2 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| Time | | 14:00-17:00 | 19:00-22:00 | 19:00-22:00 | 14:00-17:00 | 19:00-22:00 | 19:00-22:00 |
+| Time | | <span style="color:orange">14:00-17:00</span> | 19:00-22:00 | 19:00-22:00 | 14:00-17:00 | 19:00-22:00 | 19:00-22:00 |
 | Venue | | 4219 | 2612A | 2612A | 4219 | 2612A | 2612A |
 ---
 
@@ -24,7 +24,7 @@ Things to prepare:
 - any working C language IDE (e.g. ```esclipes```,```orwell dev-c++```,etc)
 - your notebook computer & charger
 Deadline of homework:
-- before next tutorial
+- show to any software tutor before your tutorial 1 begins
 
 ## Tutorial 1 - GPIO
 
