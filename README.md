@@ -22,7 +22,7 @@ Contact: yhyim@ust.hk<br>
 ## Tutorial 0 - C Programming
 Things to prepare:
 - any working C language IDE (e.g. ```esclipes```,```orwell dev-c++```,etc)
-- your notebook computer & charger
+- your notebook computer & charger<br>
 Deadline of homework:
 - show to any software tutor before your tutorial 1 begins
 
