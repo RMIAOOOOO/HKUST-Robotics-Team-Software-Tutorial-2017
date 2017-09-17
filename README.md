@@ -27,6 +27,7 @@ Syllabus(basic):
 - standard input / output
 - operators & comparators
 - branching & looping
+
 Syllabus(extra):
 - enumeration
 - pointer
