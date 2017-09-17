@@ -2,7 +2,6 @@
 
 Author: Christopher Wong<br>
 Contact: pkcwongab@ust.hk<br>
-[Find me on GitHub](https://github.com/pkcwong)
 
 ---
 
