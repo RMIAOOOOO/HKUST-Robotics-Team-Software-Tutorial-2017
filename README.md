@@ -20,7 +20,7 @@ Tutorial Enquiry: yhyim@ust.hk ```(plz also cc robotics@ust.hk)```<br>
 | Time | | **14:00-17:00** | 19:00-22:00 | 19:00-22:00 | **14:00-17:00** | 19:00-22:00 | 14:00-17:00 |
 | Venue | | **4219** | 2612A | 2612A | **4219** | 2612A | 2612A |
 
-```Please be noted that 2 & 5 Oct will be public holiday, so tutorials on those days will be scheduled earlier```
+```Please be noted that 2 & 5 Oct will be public holiday, so tutorials on those days is scheduled earlier```
 
 ---
 
