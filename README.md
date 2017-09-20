@@ -42,7 +42,7 @@ Things to prepare:
 - your notebook computer & charger
 
 Deadline of homework:
-- show to any software tutor before your tutorial 1 begins
+- email to any tutor before your tutorial 1 begins
 
 ## Tutorial 1 - GPIO
 Please return after all tutorial 0 ends
