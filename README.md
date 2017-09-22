@@ -51,13 +51,4 @@ Please return after all tutorial 0 ends
 Please return after all tutorial 1 ends
 
 ---
-### Contact
-| Emmett Yim | ```yhyim@ust.hk``` |
-| Ryusuke Sugimoto | ```rsugimoto@ust.hk``` |
-| Christopher Wong  | ```pkcwongab@ust.hk``` |
-| Peter Tse | ```hntse@ust.hk``` |
-| Dipsy Wong | ```ycwongal@ust.hk``` |
-| Avin Tse | ```sktse@ust.hk``` |
-| David Mak | ```chmakac@ust.hk``` |
-| H.W. Pang | ```hwpang@ust.hk``` |
-| Kelly Yiu | ```kyyiuac@ust.hk``` |
+
