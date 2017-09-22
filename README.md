@@ -49,3 +49,14 @@ Please return after all tutorial 0 ends
 
 ## Tutorial 2 - TIMER
 Please return after all tutorial 1 ends
+---
+## Contact
+Emmett Yim ```yhyim@ust.hk```<br>
+Ryusuke Sugimoto ```rsugimoto@ust.hk```<br>
+Christopher Wong  ```pkcwongab@ust.hk```<br>
+Peter Tse ```hntse@ust.hk```<br>
+Dipsy Wong ```ycwongal@ust.hk```<br>
+Avin Tse ```sktse@ust.hk```<br>
+David Mak ```chmakac@ust.hk```<br>
+H.W. Pang ```hwpang@ust.hk```<br>
+Kelly Yiu ```kyyiuac@ust.hk```<br>
