@@ -63,5 +63,5 @@ Please return after all tutorial 1 ends
 | Dipsy | ycwongal@ust.hk |
 | Avin | sktse@ust.hk |
 | David | chmakac@ust.hk |
-| H.W. | hwpang@ust.hk |
+| Pang | hwpang@ust.hk |
 | Kelly | kyyiuac@ust.hk |
