@@ -353,6 +353,58 @@ Functions may be called by other functions.
   }
 
 ```
+
+## Scopes
+
+All functions in C have a global scope. Any function can be used after it has been declared.
+
+```C
+
+  void func1()
+  {
+    printf("Hello!");
+  }
+
+  int main()
+  {
+    func1();  // calls func1
+    func2();  // compilation error
+  }
+
+  void func2()
+  {
+    printf("This doesn't work!");
+  }
+
+```
+
+All variables in C have their scope defined in a {} parentheses. A variable is recognized as it is referenced within its scope and after its declaration.
+
+```C
+
+  int x;
+
+  void func()
+  {
+    int a;
+  }
+
+  int main()
+  {
+    int b;
+    {
+      int c;
+      {
+        int d;
+      }
+      // a, d and e are undefined
+      // b, c and x are defined
+    }
+    int e;
+  }
+
+```
+
 ---
 
 ## Extra - Data Types
